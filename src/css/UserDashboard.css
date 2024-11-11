@@ -1,0 +1,157 @@
+.user-dashboard {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+.user-dashboard h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+header {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #6b63ffb2;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #6912e490;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #4b00b5;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #d4c1ff;
+  padding: 50px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.modal-content h4 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.modal-content label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.modal-content input,
+.modal-content select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.modal-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6a2ebee5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+  background-color: #4b00b5;
+}
+
+.close-modal {
+  margin-top: 10px;
+  background-color: #75748b;
+  width: 100%;
+}
+
+.close-modal:hover {
+  background-color: #5753c9;
+}
+
+.user-table {
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.user-table h3{
+  font-size: 20px;
+}
+
+.user-table table {
+  position: relative;
+  left: 150px;
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 20px;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.user-table th {
+  background-color: rgb(3, 157, 3);
+  color: white;
+  border-radius: 5px;
+}
+
+.user-table td {
+  background-color: #f3f2f8;
+}
+
+.user-footer {
+  padding: 15px;
+  background-color: #6c63ff;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  margin-top: 280px;
+}
